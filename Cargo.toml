@@ -1,0 +1,13 @@
+[package]
+name = "slk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.28", features = ["derive"] }
+reqwest = { version = "0.12.12", features = ["blocking"] }
+serde = { version = "1.0.217", features = ["derive"] }
+serde_json = "1.0.138"
+toml = "0.8.20"
+xdg = "2.5.2"
